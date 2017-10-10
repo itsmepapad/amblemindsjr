@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>AmbleMinds Jr.</title>
+        
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- jQuery UI CSS -->
+        <link href="js/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+       
+        <header class="nav">
+            <h1>AmbleMinds Jr.</h1>
+        </header>
+        
+        <div class="container">
+               
+            <p>Wanna play a  simple game to using JQuery UI? </p>
+                
+            <div class="shapeContainer">
+                <div class="shapeSpace"></div>
+                <img src="img/Blue_Circle.png" alt="a blue circle" class="shape dragShape" id=blueCircle>
+                <img src="img/Orange_Triangle.png" alt="a orange Triangle" class="shape dragShape" id=orangeTriangle>
+                <img src="img/Purple_Square.png" alt="a purple square" class="shape dragShape" id=purpleSquare>
+            </div>
+            
+
+            <p>Drag a shape from above to the matching shape below. </p>
+            
+            <div class="shapeContainer">   
+                <img src="img/Grey_Square.png" alt="a grey square" id="greySquare" class="shape acceptShape"><img src="img/Green_Square.png" alt="a purple square" class="shape dragShape" id=replaceSquare>
+                <img src="img/Grey_Circle.png" alt="a grey square" id="greyCircle" class="shape acceptShape"><img src="img/Green_Circle.png" alt="a blue circle" class="shape dragShape" id=replaceCircle>
+                <img src="img/Grey_Triangle.png" alt="a grey triangle" id="greyTriangle" class="shape acceptShape"><img src="img/Green_Triangle.png" alt="a green Triangle" class="shape dragShape" id=replaceTriangle>
+            </div>
+            
+            <p>Now refresh to play again! :)</p>
+            
+        </div><!-- .container -->
+        
+        <p id="tag">By Darren Alderman</p>
+        
+        <!-- Load the CDN first -->
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <!-- jQuery UI -->
+        <script src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
+

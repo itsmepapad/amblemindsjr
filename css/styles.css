@@ -1,0 +1,75 @@
+/* From JQuery UI Course --> Droppable */
+
+body {
+    background: #eee;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 40px auto 20px;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+}
+
+.container:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#droppable {
+    background: #222;
+    border: solid 2px #000;
+    height: 300px;
+    width: 400px;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+    margin: 40px auto;
+}
+
+/* AmbleMinds Jr. */
+
+.nav {
+    background-color: rgba(67,209,5,.6);
+    padding: 1px 0 1px 20px;  
+}
+
+.shape {
+    cursor: pointer; 
+    margin: 1rem;
+    width: 10rem;
+}
+
+.shapeContainer {
+    position: relative;
+    width: 90%;
+    margin: 40px auto;
+    background-color: lightgrey;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+}
+
+.shapeSpace {
+    height: 10rem; 
+    width: 1px; 
+    margin: 1rem 0; 
+    display: inline-block; 
+}
+
+.container p {
+    text-align: center; 
+}
+
+p#tag {
+    color: #444;
+    text-align: center; 
+    font-size: 12px; 
+}
+
+
+
